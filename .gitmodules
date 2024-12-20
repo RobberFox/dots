@@ -1,0 +1,12 @@
+[submodule "nvimFox"]
+	path = nvimFox
+	url = https://github.com/RobberFox/nvimFox.git
+[submodule "KittyFoxy"]
+	path = KittyFoxy
+	url = https://github.com/RobberFox/KittyFoxy.git
+[submodule "zathuraFox"]
+	path = zathuraFox
+	url = https://github.com/RobberFox/zathuraFox.git
+[submodule "AwesomeFox"]
+	path = AwesomeFox
+	url = https://github.com/RobberFox/AwesomeFox.git
