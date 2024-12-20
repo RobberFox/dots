@@ -4,7 +4,6 @@
 ```
 ### Startup script
 ```
-script.sh
 ~/dots/script.sh
 
 #!/bin/sh
