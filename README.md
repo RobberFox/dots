@@ -2,9 +2,10 @@
 1. Install git, github cli.
 
 JetBrains Mono Nerd font: https://medium.com/@almatins/install-nerdfont-or-any-fonts-using-the-command-line-in-debian-or-other-linux-f3067918a88c
-### Startup script
-1. Basic packages, symlinks directories.
+### Basic
+1. `script.sh`: Basic packages, symlinks directories.
 2. Trash-cli
+3. Firefox: https://www.youtube.com/watch?v=0QVs1jVuA8c
 ### Other software
 1. Install obsidian (add REST API key), kitty, discord
 2. Build nvim from source, install `tree-sitter`. Build nnn
