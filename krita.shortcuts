@@ -1,0 +1,10 @@
+[Shortcuts]
+ToolReferenceImages=W
+activateNextLayer=Ctrl+W
+activatePreviousLayer=Ctrl+Q
+brushslider1=Q
+mirrorNodeY=Ctrl+$
+move_layer_down=Alt+Q
+move_layer_up=Alt+W
+show_color_selector=none
+show_minimal_shade_selector=none
