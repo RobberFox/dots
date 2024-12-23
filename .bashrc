@@ -153,6 +153,8 @@ bind -x '"\C-x\C-s":cd "$(fdfind -H -t d . $HOME | fzf)"'
 bind '"\C-g":"\C-x\C-s\n"'
 bind -x '"\C-n":cd "$(fdfind -H -I -t d . $HOME | fzf)"'
 
+export EDITOR=nvim
+export VISUAL=nvim
 export MANPAGER='nvim +Man!'
 
 up ()
@@ -171,4 +173,4 @@ export NVM_DIR="$HOME/.config/nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source .obsidian_key.sh
+source ~/.obsidian_key.sh

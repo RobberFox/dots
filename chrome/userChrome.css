@@ -90,10 +90,10 @@ xul|findbar {
 .tab-content,
 .tab-background,
 .tab-label-container {
-  height: var(--tab-max-height);
+	height: var(--tab-max-height);
 }
 .tab-background {
-  margin: 0 !important;
+	margin: 0 !important;
 }
 
 
@@ -144,7 +144,7 @@ xul|findbar {
 }
 
 #reload-button, #stop-button, #back-button, #forward-button, #star-button-box  {
-  display: none !important;
+	display: none !important;
 }
 
 .tab-close-button {

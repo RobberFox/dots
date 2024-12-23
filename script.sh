@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt install htop build-essential fd-find python3 pipx npm awesome zathura texlive-full flameshot krita inkscape mpv
+sudo apt install htop xinput build-essential fd-find ripgrep python3 pipx npm awesome zathura texlive-full flameshot krita inkscape mpv
 
 # wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip
 # cd ~/.local/share/fonts
