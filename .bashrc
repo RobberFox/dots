@@ -153,6 +153,13 @@ bind -x '"\C-x\C-s":cd "$(fdfind -H -t d . $HOME | fzf)"'
 bind '"\C-g":"\C-x\C-s\n"'
 bind -x '"\C-n":cd "$(fdfind -H -I -t d . $HOME | fzf)"'
 
+if [[ -n $DISPLAY ]]; then
+  copy_line_to_x_clipboard () {
+    printf %s "$READLINE_LINE" | xclip -selection CLIPBOARD
+  }
+  bind -x '"\C-y": copy_line_to_x_clipboard' # binded to ctrl-y
+fi
+
 export EDITOR=nvim
 export VISUAL=nvim
 export MANPAGER='nvim +Man!'
