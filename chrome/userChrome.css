@@ -4,6 +4,10 @@
 	}
 }
 
+* {
+  animation-duration: 0s !important;
+}
+
 /*====== Aesthetics ======*/
 #search-box {
 	appearance: none !important;
@@ -48,6 +52,10 @@ toolbar#nav-bar {
 .tabbrowser-tab {
 	padding: 0px !important;
 }
+
+/* .tab-label-container {
+  opacity: 0 !important;
+} */
 
 #history-panelmenu > image:nth-child(1), #fxa-toolbar-menu-button > stack:nth-child(1), #unified-extensions-button > image:nth-child(1) {
 	padding-top: 0px !important;
