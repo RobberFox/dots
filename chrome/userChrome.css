@@ -4,10 +4,6 @@
 	}
 }
 
-* {
-  animation-duration: 0s !important;
-}
-
 /*====== Aesthetics ======*/
 #search-box {
 	appearance: none !important;
@@ -53,10 +49,6 @@ toolbar#nav-bar {
 	padding: 0px !important;
 }
 
-/* .tab-label-container {
-  opacity: 0 !important;
-} */
-
 #history-panelmenu > image:nth-child(1), #fxa-toolbar-menu-button > stack:nth-child(1), #unified-extensions-button > image:nth-child(1) {
 	padding-top: 0px !important;
 	padding-bottom: 2px !important;
@@ -98,10 +90,10 @@ xul|findbar {
 .tab-content,
 .tab-background,
 .tab-label-container {
-	height: var(--tab-max-height);
+  height: var(--tab-max-height);
 }
 .tab-background {
-	margin: 0 !important;
+  margin: 0 !important;
 }
 
 
@@ -152,7 +144,7 @@ xul|findbar {
 }
 
 #reload-button, #stop-button, #back-button, #forward-button, #star-button-box  {
-	display: none !important;
+  display: none !important;
 }
 
 .tab-close-button {

@@ -3,7 +3,8 @@
 .git*
 .md*
 .mozilla
-.local
+
+python3.11*
 
 .config/discord/*
 
@@ -15,7 +16,10 @@ Pictures
 Videos
 Public
 Templates
+Compilation
 
-opt
-neovim
-texmf
+.local/*
+!.local/share
+.local/share/*
+!.local/share/nvim
+.local/share/nvim/*
