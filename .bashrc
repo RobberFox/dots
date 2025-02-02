@@ -141,6 +141,8 @@ alias rm='echo "This is not the command you are looking for."; false'
 alias 3n='nnn -ae'
 alias trm='trash-put'
 alias tls='trash-list'
+alias sus='systemctl suspend'
+alias spow='systemctl poweroff'
 
 export NNN_PLUG='a:preview-tui'
 
@@ -183,3 +185,5 @@ export NVM_DIR="$HOME/.config/nvm"
 source ~/.obsidian_key.sh
 
 . "$HOME/.cargo/env"
+
+export PATH=$PATH:/home/robert/.spicetify

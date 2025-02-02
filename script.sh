@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt install psmisc htop xinput xclip build-essential fd-find ripgrep python3 lua5.4 pipx npm awesome zathura texlive-full flameshot krita inkscape mpv xserver-xephyr
+sudo apt install psmisc htop xinput xclip build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm awesome zathura texlive-full flameshot krita inkscape mpv xserver-xephyr
 
 # wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip
 # cd ~/.local/share/fonts

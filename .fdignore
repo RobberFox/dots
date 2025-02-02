@@ -23,3 +23,5 @@ Compilation
 .local/share/*
 !.local/share/nvim
 .local/share/nvim/*
+!.local/share/nvim/lazy
+.local/share/nvim/lazy/*
