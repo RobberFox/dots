@@ -40,6 +40,12 @@ case "$TERM" in
 	(xterm-color|*-256color|xterm-kitty) color_prompt=yes;;
 esac
 
+if [[ -d /sys/module/battery ]]; then
+	if [[ "$(tty)" = "/dev/tty1" ]]; then
+		pgrep awesome || startx "$HOME/.config/X11/xinitrc"
+	fi
+fi
+
 if [ "$TERM" = "linux" ]; then
 	echo -en "\e]P01a1b26" #black
 	echo -en "\e]P8404040" #darkgrey
