@@ -14,6 +14,7 @@ ln -s ~/dotsFox/zathuraFox ~/.config/zathura
 
 ln -s ~/dotsFox/.bashrc ~/.bashrc
 ln -s ~/dotsFox/.xsessionrc ~/.xsessionrc
+ln -s ~/dotsFox/.fdignore ~/.fdignore
 
 # cd ~/
 # 

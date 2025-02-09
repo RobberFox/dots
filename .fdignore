@@ -1,11 +1,11 @@
-.cache
-.npm
+.*/
 .git*
 .md*
-.mozilla
 
 python3.11*
 
+!.config
+!.local
 .config/discord/*
 
 Downloads
