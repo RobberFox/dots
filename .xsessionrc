@@ -3,4 +3,4 @@ export GTK2_RC_FILES=/usr/share/themes/Default/gtk-2.0-key/gtkrc
 export QT_STYLE_OVERRIDE=Adwaita-Dark
 export QT_QPA_PLATFORMTHEME=qt5ct
 
-export SAL_USE_VCLPLUGIN=kf5
+export SAL_USE_VCLPLUGIN=kde
