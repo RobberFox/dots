@@ -79,9 +79,11 @@ xul|findbar {
 	--navbarWidth: 500px;
 	--tab-min-height: 0 !important;
 	--tab-max-height: 20px !important;
-	--urlbar-toolbar-height: 20px !important;
+	--urlbar-min-height: 0px !important;
+	--urlbar-height: 20px !important;
 	--tab-border-radius: 0px !important;
 	--inline-tab-padding: 4px !important;
+	--splitter-width: 1px !important;
 }
 
 #nav-bar,
@@ -96,12 +98,16 @@ xul|findbar {
   margin: 0 !important;
 }
 
+#urlbar[breakout] {
+	height: 18px !important;
+}
+
 
 /* If the window is wider than 1000px, use flex layout */
 @media (min-width: 0px) {
 	#navigator-toolbox {
 		display: flex;
-		flex-direction: row;
+		flex-direction: row-reverse;
 		flex-wrap: wrap;
 	}
 
