@@ -9,7 +9,7 @@ echo "=============="
 echo
 
 # Basic packages
-sudo apt install xorg xinit cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
+sudo apt install xorg xinit libx11-dev cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
 # sudo apt install texlive-full
 
 # JetBrainsMono font
@@ -20,7 +20,9 @@ fc-cache -fv
 
 # xkb-switch
 cd $COMPILATION_DIR
-git clone https://github.com/sergei-mironov/xkb-switch.git && cd xkb-switch
+sudo apt install libxkbfile-dev
+git clone https://github.com/sergei-mironov/xkb-switch.git
+cd xkb-switch
 mkdir build && cd build
 cmake ..
 make
