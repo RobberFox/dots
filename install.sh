@@ -53,7 +53,7 @@ echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 
 # awesomewm
 sudo apt build-dep awesome
-sudo apt install libxcb-xfixes0-dev luajit libluajit-5.1-dev
+sudo apt install lua5.1 libxcb-xfixes0-dev luajit libluajit-5.1-dev
 cd $COMPILATION_DIR
 git clone https://github.com/awesomeWM/awesome.git && cd awesome
 CMAKE_ARGS="-DLUA_EXECUTABLE=/usr/bin/luajit -DLUA_LIBRARY=/usr/lib/x86_64-linux-gnu/libluajit-5.1.so.2 -DLUA_INCLUDE_DIR=/usr/include/luajit-2.1" make package
