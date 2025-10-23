@@ -9,7 +9,7 @@ echo "=============="
 echo
 
 # Basic packages
-sudo apt install cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm awesome zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
+sudo apt install xinit cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
 # sudo apt install texlive-full
 
 # JetBrainsMono font
@@ -49,6 +49,14 @@ cp ~/.local/kitty.app/share/applications/kitty-open.desktop ~/.local/share/appli
 sed -i "s|Icon=kitty|Icon=$(readlink -f ~)/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png|g" ~/.local/share/applications/kitty*.desktop
 sed -i "s|Exec=kitty|Exec=$(readlink -f ~)/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
 echo 'kitty.desktop' > ~/.config/xdg-terminals.list
+
+# awesomewm
+sudo apt build-dep awesome
+sudo apt install libxcb-xfixes0-dev luajit libluajit-5.1-dev
+cd $COMPILATION_DIR
+CMAKE_ARGS="-DLUA_EXECUTABLE=/usr/bin/luajit -DLUA_LIBRARY=/usr/lib/x86_64-linux-gnu/libluajit-5.1.so.2 -DLUA_INCLUDE_DIR=/usr/include/luajit-2.1" make package
+sudo dpkg -i awesome-*.deb
+sudo cp ~/dotsFox/awesome.desktop /usr/share/xsessions/
 
 # Other software
 cd $HOME

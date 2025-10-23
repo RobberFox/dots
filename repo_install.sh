@@ -1,8 +1,5 @@
 #!/bin/sh
 
-git config --global core.pager "nvim -R"
-git config --global color.pager no
-
 # github-cli
 (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
@@ -15,6 +12,9 @@ git config --global color.pager no
 	&& sudo apt install gh -y
 
 gh auth login
+
+git config set user.email "robchikbob@gmail.com"
+git config set user.name "Robert Hayrapetyan"
 
 # cloning
 cd $HOME

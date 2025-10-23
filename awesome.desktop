@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=awesome
+Comment=Highly configurable framework window manager
+TryExec=awesome
+Exec=awesome
+Type=Application
+Icon=
+Keywords=Window manager
