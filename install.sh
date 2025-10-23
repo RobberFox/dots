@@ -9,7 +9,7 @@ echo "=============="
 echo
 
 # Basic packages
-sudo apt install xinit cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
+sudo apt install xorg xinit cmake psmisc acpi htop xinput pulseaudio alsa-utils fzf zip xclip sxiv rename build-essential ccache fd-find ripgrep python3 lua5.4 pipx npm zathura flameshot krita inkscape firefox-esr mpv xserver-xephyr cmus libreoffice-calc
 # sudo apt install texlive-full
 
 # JetBrainsMono font
