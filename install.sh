@@ -65,6 +65,7 @@ ln -sf ~/dotsFox/nvimFox ~/.config/nvim
 ln -sf ~/dotsFox/AwesomeFox ~/.config/awesome
 ln -sf ~/dotsFox/KittyFoxy ~/.config/kitty
 ln -sf ~/dotsFox/zathuraFox ~/.config/zathura
+ln -sf ~/dotsFox/X11 ~/.config/X11
 
 ln -sf ~/dotsFox/.xsessionrc ~/.xsessionrc
 ln -sf ~/dotsFox/.fdignore ~/.fdignore
