@@ -1,16 +1,22 @@
 ### Dependencies
-1. Install git, github cli: https://github.com/cli/cli/blob/trunk/docs/install_linux.md
-2. JetBrains Mono Nerd font: https://www.jetbrains.com/lp/mono/
-3. `xkb-switch`: https://github.com/sergei-mironov/xkb-switch *(git clone it)*
+Install git, github cli: https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 ### Basic
-1. `script.sh`: Basic packages, symlinks directories.
-2. Trash-cli
-3. Firefox: https://www.youtube.com/watch?v=0QVs1jVuA8c `ln -s ~/dotsFox/chrome/userChrome.css ~/.mozilla/firefox/SOMETHING`
+>[!definition] `script.sh`
+>1. Basic packages.
+>2. JetBrains Mono Nerd font: https://www.jetbrains.com/lp/mono/
+>3. `xkb-switch`: https://github.com/sergei-mironov/xkb-switch *(git clone it)*
+>4. Trash-cli
+>5. `nvim`: https://github.com/neovim/neovim
+>6. `kitty`:
+
+Optionally - `nnn`: https://github.com/jarun/nnn/wiki/Advanced-use-cases
 ### Other software
-1. Install obsidian (add REST API key), kitty, discord.
-2. `sudo npm install -g tree-sitter-cli`, build nvim from source. Build nnn: https://github.com/jarun/nnn/wiki/Advanced-use-cases
-3. Configure krita: https://drive.google.com/drive/folders/1JnYrbAsExU9e_LyDwldBZoocc9K9zJPC
-4. For university: `sudo apt install libreoffice-calc`
+1. Install obsidian (add REST API key), discord.
+2. Configure krita: https://drive.google.com/drive/folders/1JnYrbAsExU9e_LyDwldBZoocc9K9zJPC
+3. Firefox: https://www.youtube.com/watch?v=0QVs1jVuA8c `ln -s ~/dotsFox/chrome/userChrome.css ~/.mozilla/firefox/SOMETHING`
+### Cloning other repos
+1. Markdown notes.
+2. Coding: C, JS, d2, leetcode
 #### For PC
 1. Nvidia drivers, Canon drivers, Razer cobra drivers *(and polycromatic)*, xp-pen drivers.
 2. Spotify, Obs studio, DaVinci Resolve, Kdenlive, KiCad, PureRef
