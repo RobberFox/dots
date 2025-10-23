@@ -58,7 +58,6 @@ cd $COMPILATION_DIR
 git clone https://github.com/awesomeWM/awesome.git && cd awesome
 CMAKE_ARGS="-DLUA_EXECUTABLE=/usr/bin/luajit -DLUA_LIBRARY=/usr/lib/x86_64-linux-gnu/libluajit-5.1.so.2 -DLUA_INCLUDE_DIR=/usr/include/luajit-2.1" make package
 cd build && sudo dpkg -i awesome-*.deb
-sudo cp ~/dotsFox/awesome.desktop /usr/share/xsessions/
 
 # Other software
 cd $HOME
@@ -70,15 +69,16 @@ curl -L https://discord.com/api/download?platform=linux --output Discord.deb
 
 sudo dpkg -i Obsidian.deb Discord.deb && rm Obsidian.deb Discord.deb
 
-# Symbolic links
-ln -s ~/dotsFox/nvimFox ~/.config/nvim
-ln -s ~/dotsFox/AwesomeFox ~/.config/awesome
-ln -s ~/dotsFox/KittyFoxy ~/.config/kitty
-ln -s ~/dotsFox/zathuraFox ~/.config/zathura
-ln -s ~/dotsFox/X11 ~/.config/X11
+# Links
+sudo cp ~/dotsFox/awesome.desktop /usr/share/xsessions/
+ln -sf ~/dots/nvimFox ~/.config/nvim
+ln -sf ~/dots/AwesomeFox ~/.config/awesome
+ln -sf ~/dots/KittyFoxy ~/.config/kitty
+ln -sf ~/dots/zathuraFox ~/.config/zathura
+ln -sf ~/dots/X11 ~/.config/X11
 
-ln -s ~/dotsFox/.xsessionrc ~/.xsessionrc
-ln -s ~/dotsFox/.fdignore ~/.fdignore
+ln -sf ~/dots/.xsessionrc ~/.xsessionrc
+ln -sf ~/dots/.fdignore ~/.fdignore
 
-ln -s ~/dotsFox/.bashrc ~/.bashrc
+ln -sf ~/dots/.bashrc ~/.bashrc
 touch ~/.obsidian_key.sh
