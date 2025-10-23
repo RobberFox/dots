@@ -70,7 +70,7 @@ curl -L https://discord.com/api/download?platform=linux --output Discord.deb
 sudo dpkg -i Obsidian.deb Discord.deb && rm Obsidian.deb Discord.deb
 
 # Links
-sudo cp ~/dotsFox/awesome.desktop /usr/share/xsessions/
+sudo cp ~/dots/awesome.desktop /usr/share/xsessions/
 ln -sf ~/dots/nvimFox ~/.config/nvim
 ln -sf ~/dots/AwesomeFox ~/.config/awesome
 ln -sf ~/dots/KittyFoxy ~/.config/kitty
