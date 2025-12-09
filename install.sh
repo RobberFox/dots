@@ -13,6 +13,7 @@ sudo apt install xorg xinit libx11-dev libsecret-1-0 cmake psmisc acpi htop xinp
 # sudo apt install texlive-full
 
 # JetBrainsMono font
+mkdir -p $HOME/.local/share/fonts/
 cd $HOME/.local/share/fonts
 curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.tar.xz --output JetBrainsMono.tar.xz
 unxz JetBrainsMono.tar.xz && tar -xf JetBrainsMono.tar && rm JetBrainsMono.tar
